@@ -25,6 +25,7 @@ module.exports = [{
       path: DIST_DIR,
       libraryTarget: 'commonjs',
       globalObject: 'this',
+      chunkFormat: 'module',
     }
   },
   {
@@ -36,6 +37,7 @@ module.exports = [{
       path: DIST_DIR,
       libraryTarget: 'umd',
       globalObject: 'this',
+      chunkFormat: 'module',
     }
   },
 ];

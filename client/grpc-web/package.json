@@ -1,6 +1,6 @@
 {
-  "name": "@improbable-eng/grpc-web",
-  "version": "0.15.0",
+  "name": "@arista/grpc-web",
+  "version": "0.15.1",
   "description": "gRPC-Web client for browsers (JS/TS)",
   "main": "dist/grpc-web-client.js",
   "browser": "dist/grpc-web-client.umd.js",
@@ -33,7 +33,7 @@
     "google-protobuf": "^3.14.0"
   },
   "dependencies": {
-    "browser-headers": "^0.4.1"
+    "@arista/browser-headers": "^0.4.2"
   },
   "devDependencies": {
     "@types/google-protobuf": "^3.7.4",

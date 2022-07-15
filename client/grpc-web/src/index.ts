@@ -1,4 +1,4 @@
-import {BrowserHeaders} from "browser-headers";
+import {BrowserHeaders} from "@arista/browser-headers";
 import * as impTransport from "./transports/Transport";
 import * as impTransportFetch from "./transports/http/fetch";
 import * as impTransportWebSocket from "./transports/websocket/websocket";
